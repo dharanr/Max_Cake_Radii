@@ -11,7 +11,9 @@ To be fair, every guest is served only one piece of cake.
 NOTE: Use 3.14159265359 as the value of pi and return the answer rounded to 4 places after the decimal. 
       The answer is accepted if the absolute error is within 10-4 i.e (1e-4).
 						
-For example, there are 6 cakes with radii = [1, 1, 1, 2, 2, 3] and there need to be numberOfGuests = 6 equal size pieces.
+For example, there are 6 cakes with radii = [1, 1, 1, 2, 2, 3] 
+and there need to be numberOfGuests = 6 equal size pieces.
+
 Area of a cake with radius r is calculated as (pi * radius * radius).
 For radii 1, 2 and 3, the areas are 3.14159265359, 12.5663706156, and 28.2743338851 units2.
 
@@ -29,7 +31,9 @@ Write a function named largestPiece.
 The function must return the maximum possible area of each piece of cake rounded to 4 decimals and cast as a string.
 
 largestPiece has the following parameters: 
-	•	radii[radius[0],...radius[n-1]]: an array of integers where ith element denotes the radius of the ith cake.
+	•	radii[radius[0],...radius[n-1]]: 
+		an array of integers where ith element denotes the radius of the ith cake.
+		
 	•	numberOfGuests: an integer, the number of guests
 
 Constraints
